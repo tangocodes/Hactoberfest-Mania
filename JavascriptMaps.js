@@ -13,12 +13,26 @@ var elon = {
   age: 20,
   isAlive: !true
 };
+
+//first pull request
+ var pr1={
+   name:"I am jonathan",
+   age:30,
+   isAlive:true,
+ }
+
+
+
+
+
+
 //creating new objects Map
 let users = new Map();
 // console.log(typeof users); //Here users is a object type
 users.set("john", wick);
 users.set("kiran", keanu);
-users.set("sumanth", elon); //sumanth=key || elon =value
+users.set("sumanth", elon);
+users.set("jonathan",pr1) //sumanth=key || elon =value
 
 console.log(users);
 users.forEach((value, key) => console.log(key + " = " + value.name));
