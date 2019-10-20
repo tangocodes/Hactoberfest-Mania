@@ -50,7 +50,7 @@ users.forEach((value, key) => console.log(key + " = " + value.name));
 // console.log(users.keys());
 // console.log(users.values());
 for (const key of users.keys()) {
-    // console.log(key);
+    console.log(key);
   //Above log statement will give the following output as keys
   //   john;
   //   kiran;
