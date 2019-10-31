@@ -20,7 +20,11 @@ var elon = {
    age:30,
    isAlive:true,
  }
-
+ var rudra={
+   name:"I am rudraPrakash",
+   age:30,
+   isAlive:true,
+ }
 
 
 
@@ -32,6 +36,7 @@ let users = new Map();
 users.set("john", wick);
 users.set("kiran", keanu);
 users.set("sumanth", elon);
+users.set("edamalapati",rudra)
 users.set("jonathan",pr1) //sumanth=key || elon =value
 
 console.log(users);
@@ -64,10 +69,10 @@ for (const value of users.values()) {
   //   console.log("printing each value of key is successful");
 }
 
-// for (const [key, value] of users.entries()) {
-//   console.log(key + "=" + value.name);
-//   // console.log(key + "=" + value); //value is a object
-// }
+for (const [key, value] of users.entries()) {
+console.log(key + "=" + value.name);
+console.log(key + "=" + value); //value is a object
+ }
 
 // console.log(typeof users);
 
